@@ -57,7 +57,7 @@ stafflog.debug
 
 stafflog.chat
 
-`This permission allows the group / user to use the staffchat (/s) 
+`This permission allows the group / user to use the staffchat (/s)`
 
 
 
