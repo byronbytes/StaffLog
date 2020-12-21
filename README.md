@@ -18,34 +18,30 @@ This is a staff moderation tool with handy features built into one plugin.
 
 /stafflogdebug - A debug command meant to see if the plugin is working.
 
+/v - Vanishes the player (BETA)
 
+
+
+## Command Usage
+**<> means required, [] means optional**
+
+Will be worked on soon.
+  
+  
 
 ## Permissions
 
 stafflog.admin
 
-`Can do
-/s
-/stoggle
-/chat s
-/showstafflogon
-/stafflogdebug`
+`This permission allows the group / user to have all commands.`
 
 stafflog.debug
 
-`Can do
+`This permission allows the group / user to have access to only the debug command. They will also see a message when the plugin loads / unloads.`
 
-/stafflogdebug`
+stafflog.vanish
 
-stafflog.chat
-
-`Can do
-
-/s
-
-/chat s`
-
-
+`This permission allows the group / user to vanish`
 
 
 
