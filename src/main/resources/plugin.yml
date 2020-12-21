@@ -3,6 +3,10 @@ version: 0.1
 main: byron.StaffLog.StaffLog
 commands:
   stafflogdebug:
-    description: StaffLog Debug Command
+    description: This is a debug command if there are issues.
     usage: /stafflogdebug
     permission: stafflog.debug
+    s:
+      description: Default staffchat command
+      usage: /s
+      permission: stafflog.chat
