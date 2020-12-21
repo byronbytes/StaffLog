@@ -19,8 +19,6 @@ This is a staff moderation tool with handy features built into one plugin.
 
 `/sl reloadconfig - Reloads config.yml (WIP)`
 
-`/sl permissions - Lists all permissions`
-
 
 #### Staffchat & Chat
 
@@ -56,6 +54,10 @@ stafflog.admin
 stafflog.debug
 
 `This permission allows the group / user to have access to only the debug command. They will also see a message when the plugin loads / unloads.`
+
+stafflog.chat
+
+`This permission allows the group / user to use the staffchat (/s) 
 
 
 
