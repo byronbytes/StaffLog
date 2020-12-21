@@ -24,15 +24,33 @@ This is a staff moderation tool with handy features built into one plugin.
 
 stafflog.admin
 
-`Has access to all commands`
+`Can do
+
+/s
+
+/stoggle
+
+/chat s
+
+/showstafflogon
+
+/stafflogdebug`
 
 stafflog.debug
 
-`Has access to stafflog.debug`
+`Can do
+
+/stafflogdebug`
 
 stafflog.chat
 
-`Has access to chat`
+`Can do
+
+/s
+
+/chat s`
+
+
 
 
 
