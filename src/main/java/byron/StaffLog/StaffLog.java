@@ -2,7 +2,6 @@ package byron.StaffLog;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class StaffLog extends JavaPlugin {
@@ -13,8 +12,8 @@ public class StaffLog extends JavaPlugin {
     public void onEnable() {
         getLogger().info("StaffLog has been loaded.");
         this.getCommand("stafflogdebug").setExecutor(new StaffLog());
-        registerCommands();
-        registerEvents();
+
+
 
         for(Player p : Bukkit.getOnlinePlayers()){
 
@@ -40,18 +39,4 @@ public class StaffLog extends JavaPlugin {
 
     }
 
-
-
-    public void registerCommands() {
-
-
-        getCommand("s").setExecutor(new Commands(this));
-
-    }
-
-    public void registerEvents() {
-
-        PluginManager pm = Bukkit.getServer().getPluginManager();
-        pm.registerEvents(new Chat(this),(this));
-    }
 }

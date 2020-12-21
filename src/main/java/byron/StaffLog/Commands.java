@@ -32,27 +32,12 @@ public class Commands implements CommandExecutor {
 
             Player p = (Player) sender;
             if(args.length == 0) {
-
-                if(!(p.hasPermission("stafflog.chat"))) {
-                    p.sendMessage(NoPerm);
-                    return true;
-                }
                 if(Insc.contains(p)){
                     Insc.remove(p);
                     p.sendMessage(Disabled);
 
                     return true;
-                } else
-                    Insc.add(p);
-                p.sendMessage((Enabled));
-
-                return true;
-            }
-            if(args.length >= 1) {
-
-                p.sendMessage(Prefix + ChatColor.GRAY + "Usage: /s");
-
-                return true;
+                }
             }
         }
     return false;
