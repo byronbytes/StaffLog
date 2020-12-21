@@ -1,0 +1,8 @@
+name: StaffLog
+version: 0.1
+main: byron.StaffLog.StaffLog
+commands:
+  stafflogdebug:
+    description: StaffLog Debug Command
+    usage: /stafflogdebug
+    permission: stafflog.debug
