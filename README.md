@@ -14,6 +14,7 @@ This is a staff moderation tool with handy features built into one plugin.
 /stafflogdebug - A debug command meant to see if the plugin is working.
 
 /sl - The main command for configuration
+
 ` /sl reload - Reloads the plugin`
 
 `/sl help - Shows help command`
