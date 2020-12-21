@@ -25,15 +25,10 @@ This is a staff moderation tool with handy features built into one plugin.
 stafflog.admin
 
 `Can do
-
 /s
-
 /stoggle
-
 /chat s
-
 /showstafflogon
-
 /stafflogdebug`
 
 stafflog.debug
