@@ -4,8 +4,6 @@ This is a staff moderation tool with handy features built into one plugin.
 
 
 
-
-
 ## Commands
 
 
@@ -34,16 +32,15 @@ This is a staff moderation tool with handy features built into one plugin.
 
 #### Join Messages
 
-/showstafflogon - Toggles wether you want to see when staff log on / off
+/showstafflogon - Toggles whether you want to see when staff log on / off
 
 
-#### Visibillity & Vanish
+#### Other / Work In Progress
 
-/v - Vanishes the player (BETA)
+/report - Fill out a report on another staff member (ex. admin abuse, etc)
 
 
-
-## Command Usages
+## Command Usage
 **<> means required, [] means optional**
 
 Will be worked on soon.
@@ -60,9 +57,6 @@ stafflog.debug
 
 `This permission allows the group / user to have access to only the debug command. They will also see a message when the plugin loads / unloads.`
 
-stafflog.vanish
-
-`This permission allows the group / user to vanish`
 
 
 
