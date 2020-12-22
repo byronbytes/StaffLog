@@ -11,20 +11,12 @@ This is a staff moderation tool with handy features built into one plugin.
 
 /stafflogdebug - A debug command meant to see if the plugin is working.
 
-/sl - The main command for configuration
-
-` /sl reload - Reloads the plugin`
-
-`/sl help - Shows help command`
-
-`/sl reloadconfig - Reloads config.yml (WIP)`
-
 
 #### Staffchat & Chat
 
 /s - Staffchat command
 
-/stoggle - Toggles off all staff related notifications
+/stoggle - Toggles off and on all staff related notifications (such as joins, etc)
 
 /chat s - Toggles staff chat (For multi messages)
 
@@ -35,7 +27,7 @@ This is a staff moderation tool with handy features built into one plugin.
 
 #### Other / Work In Progress
 
-/report - Fill out a report on another staff member (ex. admin abuse, etc)
+/sreport - Fill out a report on another staff member (ex. admin abuse, etc)
 
 
 ## Command Usage
