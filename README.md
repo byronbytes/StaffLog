@@ -18,16 +18,12 @@ This is a staff moderation tool with handy features built into one plugin.
 
 /stoggle - Toggles off and on all staff related notifications (such as joins, etc)
 
-/chat s - Toggles staff chat (For multi messages)
 
-#### Join Messages
-
-/showstafflogon - Toggles whether you want to see when staff log on / off
+#### Give Commands
 
 
-#### Other / Work In Progress
+/commandblock - Gives the user a command block.
 
-/sreport - Fill out a report on another staff member (ex. admin abuse, etc)
 
 
 ## Command Usage
@@ -50,6 +46,10 @@ stafflog.debug
 stafflog.chat
 
 `This permission allows the group / user to use the staffchat (/s)`
+
+stafflog.give
+
+`This permission allows the group / user to use /commandblock, /barrier, etc. It gives them the block.`
 
 
 
