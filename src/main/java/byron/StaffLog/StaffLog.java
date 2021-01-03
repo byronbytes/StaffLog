@@ -14,16 +14,12 @@ public class StaffLog extends JavaPlugin {
         this.getCommand("stafflogdebug").setExecutor(new StaffLog());
 
 
-
         for(Player p : Bukkit.getOnlinePlayers()){
-
             if(p.hasPermission("stafflog.debug")){
                 p.sendMessage("[SL] StaffLog has been loaded.");
             }
-
         }
     }
-
     @Override
     public void onDisable() {
         getLogger().info("StaffLog has unloaded.");
