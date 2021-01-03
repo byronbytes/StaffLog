@@ -6,3 +6,7 @@ commands:
       description: Default staffchat command
       usage: /s
       permission: stafflog.chat
+    commandblock:
+      description: Gives the player a command block.
+      usage: /commandblock
+      permission: StaffLog.give

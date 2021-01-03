@@ -11,8 +11,7 @@ public class StaffLog extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("StaffLog has been loaded.");
-        this.getCommand("stafflogdebug").setExecutor(new StaffLog());
-
+        this.getCommand("commandblock").setExecutor(new CommandBlock());
 
         for(Player p : Bukkit.getOnlinePlayers()){
             if(p.hasPermission("stafflog.debug")){
