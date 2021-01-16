@@ -24,6 +24,8 @@ This is a staff moderation tool with handy features built into one plugin.
 
 /commandblock - Gives the user a command block.
 
+/barrier - Gives the user 64 barriers.
+
 
 
 ## Command Usage
